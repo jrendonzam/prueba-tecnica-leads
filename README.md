@@ -97,8 +97,12 @@ El área comercial requiere procesar el campo comentarios de los prospectos para
 Responde de forma clara y breve:
 1. ¿Qué diferencia práctica hay entre enviar una instrucción simple a ChatGPT y configurar un Agente de IA con herramientas (Tools) que interactúe con el CRM o la base de datos?
 
+La diferencia es que con una instrucción simple en ChatGPT le das la información y le dices qué quieres que haga, por ejemplo analizar los requerimientos de la actividad o de lo qye te solicita. En cambio, un Agente de IA puede estar conectado con otras herramientas como un CRM o una base de datos y puede buscar información por su cuenta y realizar algunas acciones. Es como que ChatGPT solo responde a lo que le preguntas y el agente puede hacer más cosas con otras herramientas.
+
 
 2. ¿Cómo conectarías a un agente para que consulte datos en una base de datos SQL garantizando seguridad y evitando riesgos de modificación o borrado accidental de información?
+
+Yo conectaría el agente a la base de datos por medio de una API para que no tenga acceso directo a toda la base de datos y solo a la persona que lo solicita. Le daría permisos en la abse de datos solamente para consultar información y no para modificarla o borrarla. También revisaría las consultas que haga el agente para evitar que pueda cambiar información por accidente. De esta manera puede obtener los datos necesarios sin tener acceso completo a la base de datos.
 
 ---
 
