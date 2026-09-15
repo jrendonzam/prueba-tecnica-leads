@@ -96,6 +96,8 @@ El área comercial requiere procesar el campo comentarios de los prospectos para
 
 Responde de forma clara y breve:
 1. ¿Qué diferencia práctica hay entre enviar una instrucción simple a ChatGPT y configurar un Agente de IA con herramientas (Tools) que interactúe con el CRM o la base de datos?
+
+
 2. ¿Cómo conectarías a un agente para que consulte datos en una base de datos SQL garantizando seguridad y evitando riesgos de modificación o borrado accidental de información?
 
 ---
@@ -115,6 +117,6 @@ Responde de forma clara y breve:
 
 Agrega aquí el enlace público o ruta del archivo de tu conversación continua con la IA utilizada durante la prueba:
 
-- Nombre del candidato:
-- Herramienta utilizada (ChatGPT, Claude, Cursor, Copilot, etc.):
-- Enlace compartido al hilo del chat o ruta del archivo exportado:
+- Nombre del candidato: Giselle Gabriela García Hernández
+- Herramienta utilizada (ChatGPT, Claude, Cursor, Copilot, etc.): ChatGPT
+- Enlace compartido al hilo del chat o ruta del archivo exportado: https://chatgpt.com/share/6aa97aa8-006c-83e8-ac0b-6e1328b84a6a
