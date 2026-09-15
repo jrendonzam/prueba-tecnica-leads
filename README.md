@@ -118,3 +118,9 @@ Agrega aquí el enlace público o ruta del archivo de tu conversación continua 
 - Nombre del candidato:
 - Herramienta utilizada (ChatGPT, Claude, Cursor, Copilot, etc.):
 - Enlace compartido al hilo del chat o ruta del archivo exportado:
+
+¿Qué diferencia práctica hay entre enviar una instrucción simple a ChatGPT y configurar un Agente de IA con herramientas (Tools) que interactúe con el CRM o la base de datos?
+R: Basicamente que chatgpt no sabe todo el contexto, tienes que guiarlo poco a poco con tus carpetas y estructuras del proyecto, mientras que con los agentes de ia si puede moverse y guardar informacion sobre la estructura de tu proyecto y trabajar sobre ella.
+
+¿Cómo conectarías a un agente para que consulte datos en una base de datos SQL garantizando seguridad y evitando riesgos de modificación o borrado accidental de información?
+R: Primero le daria una orden especializada, en caso de ser necesario realizar un cambio tendria que pedirme permiso, ademas de tener las contraseñas y otros datos sensible en una carpeta env protegida y aislada.
