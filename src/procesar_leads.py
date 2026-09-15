@@ -90,7 +90,25 @@ def enviar_muestra_api(df: pd.DataFrame, limite: int = 5):
        - Enviar una petición POST a la API (http://127.0.0.1:8000/api/leads)
          utilizando el encabezado 'Authorization: Bearer atlas-token-2026'.
     """
-    # TODO: Implementar llamada con la librería requests
+    url = "http://127.0.0.1:8000/api/leads"
+    muestra = df.head(limite)
+
+    datos = muestra.to_dict(orient="records")
+
+    headers = {
+        "Authorization": "Bearer atlas-token-2026",
+        "Content-Type": "application/json"
+    }
+
+    try:
+        respuesta = requests.post(url, json=datos, headers=headers)
+
+        print(f"\nRespuesta de la API: {respuesta.status_code}")
+        print(respuesta.text)
+
+    except requests.exceptions.RequestException as error:
+        print(f"\nError al conectar con la API: {error}")
+
     pass
 
 if __name__ == "__main__":
@@ -98,4 +116,4 @@ if __name__ == "__main__":
     df_limpio = limpiar_datos(df)
     generar_resumen(df_limpio)
     exportar_datos(df_limpio)
-    # enviar_muestra_api(df_limpio)
+    enviar_muestra_api(df_limpio)
