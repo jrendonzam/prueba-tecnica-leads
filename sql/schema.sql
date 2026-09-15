@@ -8,7 +8,7 @@
 CREATE TABLE desarrollos (
     id INT PRIMARY KEY,
     nombre VARCHAR(100),
-    ciudad VARCHAR(50),
+    ciudad VARCHAR(50)
 );
 
 
