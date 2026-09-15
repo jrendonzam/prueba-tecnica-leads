@@ -24,8 +24,40 @@ def limpiar_datos(df: pd.DataFrame) -> pd.DataFrame:
        - Rellenar valores nulos en la columna presupuesto con 0 o el valor promedio.
     """
     df_limpio = df.copy()
-    # TODO: Implementar lógica de limpieza
+
+    # Eliminar registros con email vacío
+    df_limpio["email"] = df_limpio["email"].fillna("").str.strip()
+    df_limpio = df_limpio[df_limpio["email"] != ""]
+
+    # Eliminar registros duplicados considerando el email
+    df_limpio = df_limpio.drop_duplicates(subset="email")
+
+    # Normalizar la columna estatus
+    mapa_estatus = {
+        "nuevo": "NUEVO",
+        "contactado": "CONTACTADO",
+        "en seguimiento": "EN_SEGUIMIENTO",
+        "seguimiento": "EN_SEGUIMIENTO",
+        "convertido": "CONVERTIDO",
+        "cerrado ganado": "CONVERTIDO",
+        "perdido": "PERDIDO",
+        "descartado": "PERDIDO",
+        "no interesado": "PERDIDO"
+    }
+
+    df_limpio["estatus"] = (
+        df_limpio["estatus"]
+        .fillna("")
+        .str.strip()
+        .str.lower()
+        .map(mapa_estatus)
+    )
+
+    # Rellenar valores nulos de presupuesto con 0
+    df_limpio["presupuesto"] = df_limpio["presupuesto"].fillna(0)
+
     return df_limpio
+
 
 def generar_resumen(df: pd.DataFrame):
     """
@@ -35,7 +67,15 @@ def generar_resumen(df: pd.DataFrame):
        - Cantidad de prospectos por estatus normalizado.
     """
     print("\n--- RESUMEN DE LEADS ---")
-    # TODO: Mostrar conteos agregados
+
+    print(f"Total de prospectos limpios: {len(df)}")
+
+    print("\nProspectos por origen:")
+    print(df["origen"].value_counts())
+
+    print("\nProspectos por estatus:")
+    print(df["estatus"].value_counts())
+
     pass
 
 def exportar_datos(df: pd.DataFrame):
