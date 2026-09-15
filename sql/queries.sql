@@ -5,8 +5,11 @@
 -- =============================================================
 
 -- Consulta 1 (Filtro básico de fecha y estado):
+SELECT id, nombre,fecha_registro, estado
+FROM usuarios
+WHERE estatus ='0'
 -- Obtén todos los leads activos (NUEVO, CONTACTADO, EN_SEGUIMIENTO) registrados en los últimos 30 días.
-
+SELECT id, nombre,
 
 -- Consulta 2 (Agregación y ordenamiento):
 -- Obtén la cantidad de leads agrupados por origen, ordenados de mayor a menor.
