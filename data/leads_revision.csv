@@ -1,0 +1,25 @@
+id,nombre,email,telefono,origen,campaña,fecha_registro,estatus,presupuesto,desarrollo_id,comentarios
+56,Jorge Hernández,jorge.hernández136@gmail.com,526001680218,Directo,CMP_DIR_2026,2026-08-07 23:47:55,CONVERTIDO,2485299.11,99,Número equivocado / spam / no responde.
+70,Mariana Torres,mariana.torres573@gmail.com,528757570742,Facebook Ads,CMP_FAC_2026,2026-09-08 20:27:55,CONVERTIDO,7534770.1,99,Número equivocado / spam / no responde.
+143,Alejandro Flores,alejandro.flores142@gmail.com,527763740453,Portal Inmobiliario,CMP_POR_2025,2026-07-13 00:00:00,PERDIDO,4927494.18,99,¿Tienen planes de financiamiento o enganche diferido?
+179,Luis Rodríguez,luis.rodríguez305@gmail.com,522020262123,Facebook Ads,CMP_FAC_2026,2026-07-02 00:00:00,CONTACTADO,4025802.45,99,"Interesado para inversión patrimonial, busco tasa de retorno alta."
+200,Ana Ramírez,ana.ramírez204@gmail.com,523615642860,Directo,CMP_DIR_2026,2026-07-10 04:27:00,CONVERTIDO,2622615.19,99,"Pésimo servicio al cliente, no me llamen más."
+227,Fernando Gómez,fernando.gómez833@gmail.com,523534186676,Facebook Ads,CMP_FAC_2026,2026-07-06 00:00:00,CONTACTADO,4247488.42,99,Solo estoy cotizando precios para comparar con otra constructora.
+257,Daniela Rodríguez,daniela.rodríguez292@gmail.com,526449549092,Google Search,CMP_GOO_2025,2026-08-22 06:41:00,NUEVO,5824105.9,99,
+325,Fernando Ramírez,fernando.ramírez753@gmail.com,521813743830,Facebook Ads,CMP_FAC_2025,2026-09-10 00:00:00,CONVERTIDO,1940948.42,99,Solo estoy cotizando precios para comparar con otra constructora.
+351,Luis Sánchez,luis.sánchez184@gmail.com,522051194393,Facebook Ads,CMP_FAC_2026,2026-07-13 09:04:00,PERDIDO,5459022.13,99,"Pésimo servicio al cliente, no me llamen más."
+381,Alejandro Pérez,alejandro.pérez463@gmail.com,524157540189,Instagram,CMP_INS_2025,2026-06-18 15:06:00,EN_SEGUIMIENTO,2090792.66,99,¿Tienen planes de financiamiento o enganche diferido?
+405,Fernando Martínez,fernando.martínez892@gmail.com,522553225274,Feria Inmobiliaria,CMP_FER_2026,2026-06-15 00:00:00,NUEVO,6029650.8,99,¿Tienen planes de financiamiento o enganche diferido?
+429,Alejandro Torres,alejandro.torres460@gmail.com,522358248920,Portal Inmobiliario,CMP_POR_2025,2026-08-03 08:33:55,CONTACTADO,4466741.8,99,Me gustaría agendar cita el próximo sábado a las 11:00 am.
+436,Carlos Ramírez,carlos.ramírez225@gmail.com,524951170613,Feria Inmobiliaria,CMP_FER_2025,2026-06-18 00:00:00,PERDIDO,3173133.28,99,URGENTE: Ya cuento con crédito Infonavit aprobado.
+446,Valeria Ramírez,valeria.ramírez349@gmail.com,524401248572,Instagram,CMP_INS_2025,2026-07-21 00:00:00,CONTACTADO,4649803.55,99,Busco departamento de 2 recámaras con entrega inmediata.
+453,Roberto Rodríguez,roberto.rodríguez683@gmail.com,524935462811,Feria Inmobiliaria,CMP_FER_2025,2026-07-12 21:18:55,EN_SEGUIMIENTO,0.0,99,URGENTE: Ya cuento con crédito Infonavit aprobado.
+456,Mariana Ramírez,mariana.ramírez714@gmail.com,,Feria Inmobiliaria,CMP_FER_2026,2026-07-20 09:33:55,NUEVO,0.0,99,URGENTE: Ya cuento con crédito Infonavit aprobado.
+465,Roberto López,roberto.lópez567@gmail.com,524120930408,Instagram,CMP_INS_2026,2026-07-17 00:00:00,EN_SEGUIMIENTO,5434994.71,99,"Interesado para inversión patrimonial, busco tasa de retorno alta."
+504,Luis Hernández,luis.hernández228@gmail.com,526738840177,Portal Inmobiliario,CMP_POR_2025,2026-07-10 20:46:55,EN_SEGUIMIENTO,3384722.62,99,URGENTE: Ya cuento con crédito Infonavit aprobado.
+514,Jorge Sánchez,jorge.sánchez704@gmail.com,523610575957,Facebook Ads,CMP_FAC_2025,2026-09-04 00:00:00,CONVERTIDO,2201636.59,99,¿Tienen planes de financiamiento o enganche diferido?
+520,Fernando Hernández,fernando.hernández393@gmail.com,,Recomendación,CMP_REC_2025,2026-07-27 00:00:00,PERDIDO,6936147.9,99,Me gustaría agendar cita el próximo sábado a las 11:00 am.
+542,Ana Pérez,ana.pérez991@gmail.com,527287605035,Directo,CMP_DIR_2026,2026-09-13 00:00:00,PERDIDO,3373263.99,99,Solo estoy cotizando precios para comparar con otra constructora.
+598,Mariana López,mariana.lópez930@gmail.com,525360179576,Directo,CMP_DIR_2026,2026-09-04 02:49:00,EN_SEGUIMIENTO,1770243.46,99,URGENTE: Ya cuento con crédito Infonavit aprobado.
+705,Daniela Pérez,daniela.pérez248@gmail.com,528150736635,Directo,CMP_DIR_2026,2026-07-23 09:24:55,EN_SEGUIMIENTO,7833119.5,99,Solicito información de acabados y amenidades.
+747,Roberto Sánchez,roberto.sánchez417@gmail.com,528332714010,Google Search,CMP_GOO_2026,2026-08-11 00:00:00,CONVERTIDO,3366707.71,99,"Interesado para inversión patrimonial, busco tasa de retorno alta."
